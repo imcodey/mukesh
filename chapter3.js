@@ -35,9 +35,21 @@ const item ={
 //     console.log(i)
 // }
 
-let i = 0;
+// let i = 0;
 
-while(i<5){
-    console.log(i)
+// while(i<5){
+//     console.log(i)
+// }
+// i++;
+
+const sum = (a,b)=>{
+    let c = a+b;
+    return c
 }
-i++;
+let d = prompt("Enter Your Number First")
+let e = prompt("Enter Your Number Second")
+
+d = Number.parseInt(d)
+e = Number.parseInt(e)
+
+console.log(sum(d,e))
