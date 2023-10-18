@@ -31,4 +31,12 @@
 // let a = document.getElementsByClassName("ctitle")
 // a[0].style.color="red"
 
-let a = document.getElementsByTagName()
+// console.log(document.getElementsByTagName("input"))
+// console.log(document.getElementsByName("my"))
+
+let a = document.getElementById("my2")
+let b = document.getElementsByClassName("my")
+
+// console.log(a.matches(".my"))
+// console.log(a.closest(".my"))
+console.log(a.contains(b))
