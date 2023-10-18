@@ -28,5 +28,7 @@
 // let a = document.querySelector(".ctitle")
 // a.style.color="red"
 
-let a = document.getElementsByClassName("ctitle")
-a[0].style.color="red"
+// let a = document.getElementsByClassName("ctitle")
+// a[0].style.color="red"
+
+let a = document.getElementsByTagName()
