@@ -34,9 +34,13 @@
 // console.log(document.getElementsByTagName("input"))
 // console.log(document.getElementsByName("my"))
 
-let a = document.getElementById("my2")
-let b = document.getElementsByClassName("my")
+// let a = document.getElementById("my2")
+// let b = document.getElementsByClassName("my")
 
 // console.log(a.matches(".my"))
 // console.log(a.closest(".my"))
-console.log(a.contains(b))
+
+let a = document.getElementById("span")
+let b = document.getElementById("my").contains(a);
+console.log(b)
+
